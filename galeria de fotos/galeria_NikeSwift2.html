@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_galeria.css">
+    <script src="script_galeria.js"></script>
+    <link rel="stylesheet" href="style_nav.css">
+    <script src="https://kit.fontawesome.com/0ec0ba7eef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style_footer.css">
+
+</head>
+<body>
+    <nav>
+
+        <input type="checkbox" id="toggle">
+        <div class="logo" id="logo">
+            <a href="../index.html"><img src="Logo.png" alt=""></a> 
+        </div>
+        <ul class="list">
+            <li><a href="../filtros.html">Categorías</a></li>
+            
+            <li><a href="../filtros_hombre.html">Hombre</a></li>
+            <li><a href="../filtros_mujer.html">Mujer</a></li>
+        </ul>
+        <label for="toggle" class="icon-bars">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav> 
+<div class="product">
+    <div class="img-container" >
+        <img id="imageBox" src="TP9.jpg" alt="">
+    </div>
+    <div class="product-small-img">
+        <img src="TP9.jpg" alt="" onclick="myFunction(this)">
+        <img src="TP10.jpg" alt="" onclick="myFunction(this)">
+        <img src="TP11.jpg" alt="" onclick="myFunction(this)">
+        <img src="TP12.jpg" alt="" onclick="myFunction(this)">
+    </div>
+    
+    <div class="product-description">
+        <h3>Tenis Nike run swift 2-Tenis para hombre</h3>
+        <h4>Marca: Nike</h4>
+        <hr>
+        <div>
+            <h4><small>Precio:</small> $919</h4>
+            <button class="product-add">Añadir al carrito</button>
+            <button class="product-buy">Comprar</button>
+        </div>
+    </div>   
+</div>
+
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer-row">
+
+            <div class="footer-links">
+                <h4>SportsHub</h4>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Aviso de privacidad</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Historia</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Atencion al cliente</h4>
+                <ul>
+                    <li><a href="#">Ventas corporativas</a></li>
+                    <li><a href="#">Factura electrónica</a></li>
+                    <li><a href="#">Métodos de pago</a></li>
+                    <li><a href="#">Cambios y devoluciones</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Siguenos</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+   </footer>  
+</body>
+</html>
